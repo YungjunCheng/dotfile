@@ -1,11 +1,8 @@
-# ~/.bashrc.local — 机器本地配置模板
-# 用法：复制到 ~/.bashrc.local（stow 不管这个文件），
-#       由 bash 包 .bashrc 顶部自动加载。
-# 适合放：本机路径、私有工具链、镜像源、密钥类环境变量等不想公开的内容。
+# ~/.bashrc.local — template for machine-local config
+# Usage: copy to ~/.bashrc.local (stow does not manage this file)
+#        it is sourced automatically at the top of the bash package's .bashrc.
+# Good for: local paths, private toolchains, mirror sources, secret env vars,
+#           anything you do not want to make public.
 
-# 示例（按需取消注释）：
-# export YSYX_HOME="$HOME/workspace/ysyx-workbench"
-# export LFS=/mnt/lfs
+# Examles (uncomment as needed)
 # export PATH="$HOME/.local/bin:$PATH"
-# [ -f "$HOME/.cargo/env" ] && . "$HOME/.cargo/env"
-# export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
