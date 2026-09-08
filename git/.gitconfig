@@ -1,0 +1,32 @@
+[user]
+	name = YungjunCheng
+	email = 2544314512@qq.com
+[core]
+	editor = vim
+	autocrlf = input
+	pager = cat
+[color]
+	ui = true
+	diff = auto
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
+[merge]
+	tool = vimdiff
+[diff]
+	tool = vimdiff
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	cm = commit
+	pu = pull
+	push = push origin
+	lg = log --oneline --graph --decorate
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
